@@ -1,0 +1,29 @@
+/* Color Scheme */
+body {
+    background-color: #001f3f; /* Navy Blue */
+    color: #FFFFFF; /* White text for contrast */
+}
+
+h1, h2, h3 {
+    color: #FF4136; /* Red for headings */
+}
+
+.button {
+    background-color: #2ECC40; /* Green for buttons */
+    color: #FFFFFF; /* White text for buttons */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    .container {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .button {
+        width: 100%; /* Full width buttons on mobile */
+    }
+}
